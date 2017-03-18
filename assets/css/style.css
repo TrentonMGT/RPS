@@ -1,0 +1,12 @@
+.player-box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid blue;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    float: left;
+}
+
+#start-area {
+    width: 100%;
+}

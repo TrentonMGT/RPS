@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RPS</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="start-area">
+        <h1>
+			Rock Paper Scissors
+		</h1>
+        <h3 id="p1Ready">Player 1 is ready</h3>
+        <h3 id="p2Ready">Player 2 is ready</h3>
+        <input type="text" id="name-textbox" placeholder="NAME">
+        <button id="start-button">Start</button>
+    </div>
+    <div class="players-container">
+        <div class="player-box">
+            <h3 id="player-one">Waiting for Player 1</h3>
+        </div>
+        <div class="player-box">
+            <div id="middle-box"></div>
+        </div>
+        <div class="player-box">
+            <h3 id="player-two">Waiting for Player 2</h3>
+        </div>
+        <input id="username" type="text" placeholder="Name">
+        <br/>
+        <input id="text" type="text" placeholder="Message">
+        <br/>
+        <button id="post">Post</button>
+        <br/>
+        <div id="results"></div>
+    </div>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
